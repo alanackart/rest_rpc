@@ -6,7 +6,7 @@
 #include "connection.h"
 #include "io_service_pool.h"
 #include "router.h"
-
+#include <condition_variable>
 using boost::asio::ip::tcp;
 
 namespace rest_rpc {
